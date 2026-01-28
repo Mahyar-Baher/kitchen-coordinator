@@ -26,7 +26,7 @@ const Footer = () => {
                   onError={() => setImgSrc('/fallback-logo.png')}
                 />
               </div>
-              <h5 className="fw-bold mb-0">Pantry Pals</h5>
+              <h5 className="fw-bold mb-0">Kitchen Coordinator</h5>
             </Link>
 
             <p className="footer-text-muted small">
@@ -77,11 +77,11 @@ const Footer = () => {
               </li>
               <li className="d-flex align-items-center mb-2">
                 <Envelope className="me-2 flex-shrink-0" />
-                <span>pantrypal808@gmail.com</span>
+                <span>placeholder@gmail.com</span>
               </li>
               <li className="d-flex align-items-center">
                 <a
-                  href="https://github.com/pantry-pals"
+                  href="https://github.com/kitchen-coordinator"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="nav-link p-0 d-inline-flex align-items-center"
@@ -104,7 +104,7 @@ const Footer = () => {
               {' '}
               {currentYear}
               {' '}
-              Pantry Pals. All Rights Reserved.
+              Kitchen Coordinator. All Rights Reserved.
             </Col>
           </Row>
         </Container>
